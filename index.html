@@ -11,51 +11,55 @@
   <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:400,700" rel="stylesheet">
 </head>
 <body>
-  <a href="#">
-    <article class="action-card">
-      <div class="grid island-1-2">
-        <div class="unit xs-1 s-1 m-1-2 l-1-3">
-          <menu class="action-tools-top absolute">
+  <div class="grid island-1-2">
+    <div class="unit xs-1 s-1 m-1-2 l-1-3">
+        <article class="action-tools-top action-card">
+        <header>
+          <menu class="absolute">
             <li>
-              <i class="icon i-1 btn btn-ghost action-btn absolute">
+              <button class="btn btn-ghost action-btn">
+              <i class="icon i-1 absolute">
                 <svg><use xlink:href="images/icons.svg#fullscreen" /></svg>
               </i>
+            </button>
             </li>
             <li>
               <i class="icon i-1 btn btn-ghost action-btn">
-                <svg><use xlink:href="images/icons.svg#download" /></svg>
+          <svg><use xlink:href="images/icons.svg#download" /></svg>
               </i>
             </li>
           </menu>
-          <picture class="img-flex relative">
+          <picture class="relative">
             <source media="(min-width:60em)" srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x">
             <source media="(min-width:38em)" srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x">
-            <img srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x" src="images/blue-bolt-975.jpg,blue-bolt-480.jpg" alt="">
+            <img class="img-flex" srcset="images/blue-bolt-975.jpg 2x, images/blue-bolt-480.jpg 1x" src="images/blue-bolt-975.jpg,blue-bolt-480.jpg" alt="">
           </picture>
           <h1 class="pad-t-1-2 push-0 peta">Blue Bolt, Series 6D, № 4</h1>
           <p>Blue Bolt, the human lightning streak, in weird & fantastic stories of the unknown.</p>
-          <article class="action-tools-bottom">
+        </header>
+      </article>
+        <article class="action-tools-bottom">
+          <footer>
             <menu>
               <li>
-                <i class="icon i-1 gutter-1-2">
+                <i class="icon i-1 gutter-1-2 action-btn">
                   <svg><use xlink:href="images/icons.svg#heart" /></svg>
                 </i>
               </li>
               <li>
-                <i class="icon i-1">
+                <i class="icon i-1 action-btn">
                   <svg><use xlink:href="images/icons.svg#share" /></svg>
                 </i>
               </li>
               <li>
-                <i class="icon i-1">
+                <i class="icon i-1 action-btn">
                   <svg><use xlink:href="images/icons.svg#comment" /></svg>
                 </i>
               </li>
             </menu>
-          </article>
-        </div>
-      </div>
-    </article>
-  </a>
+          </footer>
+        </article>
+    </div>
+  </div>
 </body>
 </html>
