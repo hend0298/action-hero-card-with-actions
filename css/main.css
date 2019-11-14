@@ -34,3 +34,17 @@ html {
   box-shadow: 0 .1em .3em #000;
   color: #555;
 }
+
+.icons {
+  top: 100px;
+}
+
+.btn-ghost {
+  border: none;
+  top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
